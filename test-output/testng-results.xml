@@ -2,16 +2,43 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-15T21:29:25 EST" name="Default suite" finished-at="2024-01-15T21:29:25 EST" duration-ms="45">
+  <suite started-at="2024-01-24T21:55:17 EST" name="Default suite" finished-at="2024-01-24T21:56:10 EST" duration-ms="53181">
     <groups>
+      <group name="SmokeSuite">
+        <method signature="CreateContactTestWithBaseClass.ContactTest()[pri:0, instance:createTest.CreateContactTestWithBaseClass@2e8c1c9b]" name="ContactTest" class="createTest.CreateContactTestWithBaseClass"/>
+      </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2024-01-15T21:29:25 EST" name="Default test" finished-at="2024-01-15T21:29:25 EST" duration-ms="45">
-      <class name="practice.ReadDataFromCmdLine">
-        <test-method signature="sample()[pri:0, instance:practice.ReadDataFromCmdLine@4659191b]" started-at="2024-01-15T21:29:25 EST" name="sample" finished-at="2024-01-15T21:29:25 EST" duration-ms="7" status="PASS">
+    <test started-at="2024-01-24T21:55:17 EST" name="Default test" finished-at="2024-01-24T21:56:10 EST" duration-ms="53181">
+      <class name="createTest.CreateContactTestWithBaseClass">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:createTest.CreateContactTestWithBaseClass@2e8c1c9b]" started-at="2024-01-24T21:55:17 EST" name="bsConfig" finished-at="2024-01-24T21:55:17 EST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-      </class> <!-- practice.ReadDataFromCmdLine -->
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:createTest.CreateContactTestWithBaseClass@2e8c1c9b]" started-at="2024-01-24T21:55:18 EST" name="bcConfig" finished-at="2024-01-24T21:55:24 EST" duration-ms="6085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:createTest.CreateContactTestWithBaseClass@2e8c1c9b]" started-at="2024-01-24T21:55:24 EST" name="bmConfig" finished-at="2024-01-24T21:55:29 EST" duration-ms="5802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="ContactTest()[pri:0, instance:createTest.CreateContactTestWithBaseClass@2e8c1c9b]" started-at="2024-01-24T21:55:29 EST" name="ContactTest" finished-at="2024-01-24T21:55:54 EST" duration-ms="24417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:createTest.CreateContactTestWithBaseClass@2e8c1c9b]" started-at="2024-01-24T21:55:54 EST" name="amConfig" finished-at="2024-01-24T21:56:08 EST" duration-ms="14517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:createTest.CreateContactTestWithBaseClass@2e8c1c9b]" started-at="2024-01-24T21:56:09 EST" name="acConfig" finished-at="2024-01-24T21:56:10 EST" duration-ms="1617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:createTest.CreateContactTestWithBaseClass@2e8c1c9b]" started-at="2024-01-24T21:56:16 EST" name="asConfig" finished-at="2024-01-24T21:56:16 EST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- createTest.CreateContactTestWithBaseClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
